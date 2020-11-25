@@ -1,0 +1,26 @@
+title: Gallery Image
+
+options:
+  delete:
+    admin: true
+    editor: false
+
+accept:
+  mime: image/png, image/jpg, image/jpeg #, image/* # only accept uploads of images
+  # orientation: landscape
+  # maxwidth: 1200
+  # minwidth: 200
+
+fields:
+  alt:
+    type: text
+    width: 1/2
+  caption:
+    type: text
+    width: 1/2
+  photographer:
+    type: text
+    width: 1/2
+  license:
+    type: text
+    width: 1/2
